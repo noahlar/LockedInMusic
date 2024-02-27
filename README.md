@@ -4,3 +4,6 @@ For keeping track of total progress and comparing how the individual pages look 
 
 IMPORTANT
 So github can be weird so to make it as easy as possible I think we should use https://download-directory.github.io/ to download individual folders that can then be opened inside of VS code, as I like to use seperate .css files to save room in the actual HTML file. To do this, navigate to the folder that you want and copy the url of the page you're on, paste this URL into https://download-directory.github.io/, and it will zip the whole thing and download it for you. Once you unzip it, simply go to the folder, FYP for example, and open it via VS code.
+
+UPDATE (Redundant If You've done this before)
+For the download folders thing, I just tried it and learned the zip will be named after the path of the directory you were in, for example FYP was named jvc68 LockedInMusic main FYP, I heavily recommend renaming the zip to something way smaller, like FYP in this scenario, BEFORE unzipping, as unzipping will make a new folder that takes the name of the zip, and these super long names are bad. Once you have the unzipped folder, open that in VS Code. I know this may seem redundant, but if you haven't used Github before it can be very weird to work with, and I wanted things to run smoothly.
