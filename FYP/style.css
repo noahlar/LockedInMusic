@@ -1,0 +1,77 @@
+/*ALL TEXT IS PLACEHOLDER, FONT IS ALSO TEMPORARY*/
+p {
+    color: #eceae1;
+}
+
+body {
+    background-color: #171717;
+    margin: 0;
+}
+
+#FYP {
+    border: 5px solid black;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #eceae1;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #171717;
+    margin: 0;
+}
+
+#Title {
+    border: 10px groove #01334e;
+    text-align: left;
+    letter-spacing: 1px;
+    width: auto;
+    color: #eceae1;
+    font-size: 35px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #171717;
+    margin: 0;
+}
+
+.main {
+    border: 30vw solid #01334e;
+    border-top: none;
+    border-bottom: none;
+    border-right: 30vw solid #01334e;
+    height: auto;
+    background-color: #171717;
+}
+
+#pfp {
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+    display: inline;
+    position: relative;
+    top: 3px;
+}
+
+#username {
+    background-color: #dddddd;
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    text-indent: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+#AArt {
+    width: 599px;
+    height: 599px;
+}
+
+#CommentSection {
+    background-color: #dddddd;
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    text-indent: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
