@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Locked IN Music</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--This page is set up using grid so that it looks similar across different aspect ratios-->
+    <!--However, it is entirely made up of one 1 column, 1 row, aka 1 box, and inside this box is another box-->
+    <!--Here is where the grid starts-->
+    <div class="leftSide">
+      <!--LBanner stands for left banner, the long lighter blue thing-->
+      <img id="LBanner" src="img/Poe.jpg">
+
+      <h1>Locked IN Music</h1>
+      <!--A box, in a box.-->
+      <div class="loginZone">
+        <!--Second smaller darker blue box-->
+        <img id="Box" src="img/Poe1.jpg">
+        <h2>Sign Up:</h2>
+
+        <form>
+          <!--The whole userName and userNameL thing makes sense for the CSS, look at style.css inside Sign Up folder-->
+            <label for="userName" id="userNameL">Username:</label>
+            <input type="text" id="userName" placeholder="ex:User123" required>
+
+            <label for="email" id="emailL">Email:</label>
+            <input type="text" id="email" placeholder="ex:abc123@gmail.com" required>
+
+            <label for="password" id="passL">Password:</label>
+            <input type="password" id="pass" placeholder="ex:verySafePassword" required>
+
+            <button type="signup" id="signup">Sign Up!</button>
+        </form>
+
+      </div>
+
+    </div>
+
+  </body>
