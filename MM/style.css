@@ -1,0 +1,64 @@
+body {
+    background-color: #171717;
+    margin: 20px;
+    overflow: hidden;
+}
+
+p {
+    color: #eceae1;
+}
+
+.main {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 150px repeat(12, 100px);
+    grid-template-rows: repeat(7, 100px);
+    border: 1px solid green;
+
+}
+
+.instrument {
+    background-color: #2a2a2c;
+    border: 1px solid blue;
+    border-radius: 25px;
+    height: auto;
+    display: block;
+
+}
+
+.fBox {
+    background-color: #414143;
+    border: 1px solid red;
+    border-radius: 25px;
+}
+
+.box {
+    background-color: #2a2a2c;
+    border: 1px solid red;
+    border-radius: 25px;
+}
+
+.controlls {
+    display: grid;
+    grid-template-columns: repeat(10, 48px);
+    grid-template-rows: 25px;
+    border: 1px solid orange;
+}
+
+.option {
+    border: 1px solid orange;
+
+}
+
+/*THIS IS WHERE SPECIFIC ID'S ARE KEPT*/
+#drums {
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+#play {
+    background-color: #414143;
+    color: #eceae1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
