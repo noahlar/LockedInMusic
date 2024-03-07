@@ -7,3 +7,6 @@ So github can be weird so to make it as easy as possible I think we should use h
 
 UPDATE (Redundant If You've done this before)
 For the download folders thing, I just tried it and learned the zip will be named after the path of the directory you were in, for example FYP was named jvc68 LockedInMusic main FYP, I heavily recommend renaming the zip to something way smaller, like FYP in this scenario, BEFORE unzipping, as unzipping will make a new folder that takes the name of the zip, and these super long names are bad. Once you have the unzipped folder, open that in VS Code. I know this may seem redundant, but if you haven't used Github before it can be very weird to work with, and I wanted things to run smoothly.
+
+LINK TO PHASE 1 DOC:
+https://docs.google.com/document/d/1Itfhs-V2XX6CEqtWpB2ROXkxjUOwgcRT/edit?usp=sharing&ouid=101379484573494845421&rtpof=true&sd=true
