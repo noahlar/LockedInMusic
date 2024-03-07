@@ -1,11 +1,22 @@
 /*ALL TEXT IS PLACEHOLDER, FONT IS ALSO TEMPORARY*/
 p {
     color: #eceae1;
+    margin: 0;
 }
 
 body {
     background-color: #171717;
     margin: 0;
+    background-image: url("img/postArt2.jpg"), url("img/postArt2.jpg");
+    background-position: left, right;
+    background-size: 500px, 500px;
+    background-repeat: repeat-y, repeat-y;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30vw 558px 30vw;
+    grid-template-rows: 10vh;
 }
 
 #FYP {
@@ -33,11 +44,9 @@ body {
 }
 
 .main {
-    border: 30vw solid #01334e;
-    border-top: none;
-    border-bottom: none;
-    border-right: 30vw solid #01334e;
+    z-index: -1;
     height: auto;
+    margin: 0;
     background-color: #171717;
 }
 
@@ -45,33 +54,47 @@ body {
     border-radius: 10px;
     width: 20px;
     height: 20px;
-    margin: 8px;
-    display: inline;
+    margin: 0px;
     position: relative;
     top: 3px;
 }
 
 #username {
     background-color: #dddddd;
-    position: relative;
     color: grey;
     font-size: 15px;
+    border: 3px solid #dddddd;
+    border-top: 1px solid black;
     text-indent: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    position: relative;
+    bottom: 3px;
 }
 
 #AArt {
-    width: 599px;
-    height: 599px;
+    width: 558px;
+    height: 558px;
+    margin: 0;
 }
 
 #CommentSection {
     background-color: #dddddd;
-    position: relative;
     color: grey;
     font-size: 15px;
     text-indent: 5px;
+    position: relative;
+    bottom: 3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+}
+
+#pArt {
+    width: 30vw;
+    height: 100%;
+    position: absolute;
+    height: auto;
+    right: 1058.5px;
+    margin: 0;
+
 }
