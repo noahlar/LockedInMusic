@@ -1,7 +1,7 @@
 body {
     background-color: #171717;
     margin: 20px;
-    overflow: hidden;
+
 }
 
 p {
@@ -10,11 +10,49 @@ p {
 
 .main {
     display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 150px repeat(12, 100px);
-    grid-template-rows: repeat(7, 100px);
-    border: 1px solid green;
+    grid-template-columns: 805px auto;
+    grid-template-rows: auto;
+    border: 1px solid blue;
+    padding: 5px;
+    grid-gap: 2px;
+}
 
+.firstHalf {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 130px repeat(8, 79px);
+    grid-template-rows: repeat(8, 79px);
+
+}
+
+.secondHalf {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(8, 79px);
+    grid-template-rows: repeat(8, 79px);
+}
+
+@media screen and (max-width:900px) {
+    .main {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        border: 1px solid blue;
+        padding: 5px;
+        grid-gap: 2px;
+    }
+
+    .firstHalf {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 130px repeat(8, 79px);
+        grid-template-rows: repeat(8, 79px);
+
+    }
+
+    .secondHalf {
+        display: none;
+    }
 }
 
 .instrument {
@@ -30,12 +68,34 @@ p {
     background-color: #414143;
     border: 1px solid red;
     border-radius: 25px;
+    display: inherit;
+    transition:
+        background-color .5s,
+        opacity .5s;
+
+}
+
+.fBox:hover,
+.fBox:focus {
+    background-color: lightblue;
+    opacity: 50%;
 }
 
 .box {
+    display: inherit;
     background-color: #2a2a2c;
     border: 1px solid red;
     border-radius: 25px;
+    transition:
+        background-color .5s,
+        opacity .5s;
+
+}
+
+.box:hover,
+.box:focus {
+    background-color: lightblue;
+    opacity: 50%;
 }
 
 .controlls {
@@ -51,10 +111,10 @@ p {
 }
 
 /*THIS IS WHERE SPECIFIC ID'S ARE KEPT*/
-#drums {
+#keyboard {
     position: relative;
-    left: 20px;
-    top: 15px;
+    left: 1px;
+    top: 3px;
 }
 
 #play {
