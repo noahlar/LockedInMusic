@@ -10,3 +10,6 @@ For the download folders thing, I just tried it and learned the zip will be name
 
 LINK TO PHASE 1 DOC:
 https://docs.google.com/document/d/1Itfhs-V2XX6CEqtWpB2ROXkxjUOwgcRT/edit?usp=sharing&ouid=101379484573494845421&rtpof=true&sd=true
+
+LINK TO WORK COMPLETED DOC:
+https://docs.google.com/document/d/1wi_5VNy6TNEDDYSubkcwm5qCVJde-lmNAVM7beSeW9g/edit?usp=sharing
